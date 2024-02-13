@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.container {
+	width: 1024px;
+	color: darkblue;
+	font: 16px/18px arial arial, sans-serif;;
+	background-image: url(mo.png);
+	margin: auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.header h2 {
+	color: drakgreen;
+	margin: 10px;
+	float: left;
+	text-align: right;
+	
+}
+.hero {
+	margin: 10px auto;
+	display: block;
+	width: 150px;
+
+}
+.hero img{
+	width: 150px;
+	height: 150px;
+	margin-top: 100px;
+	margin-botton: 100px;
+	margin-left: 15px;
+	border-radius: 50%;
+
+}
+.header ul li a{
+	display: inline-block;
+	float: right;
+	margin: 10px;
+
+}
+.header ul li a{
+	text-decoration: none;
+	color: darkblue;
+}
+.header ul li a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+
+}
+
+.beranda{
+	width: 1024px;
+	margin-top: 30px ;
+	margin-bottom: 30px;
+	color: darkblue;
+	box-sizing: border-box;
+
+}
+.tentangsaya{
+	width: 980px;
+	text-align: justify;
+	margin-top: 100px;
+	margin-botton: 100px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.tentangsaya h2 {
+	color: green;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.portofolio .cap1 img {
+	width: 300px;
+	float: left;
+	margin: 20 ;
+}
+.portofolio .cap2 img {
+	width: 300px;
+	float: left;
+	margin: 20 auto;
+}
+.portofolio .cap3 img {
+	width: 300px;
+	float: left;
+	margin: 20 auto;
+}
+
+.portofolio {
+	width: 980px;
+	margin-top: 100px;
+	margin-botton: 100px;
+	color: darkblue;
+	
+}
+.portofolio h2 {
+	margin-top: 20px auto;
+	color: green;
+	font-weight: bold;
+}
+
+.kontak h2 {
+	margin-top: 20px;
+	color: green;
+	font-weight: bold;
+}
+
+.kontak  {
+	width: 980px;
+	margin-top: 100px;
+	margin-botton: 100px;
+	color: green;
+
+}
+.kontak p{
+	color: darkblue;
+}
+.wa img{
+	width: 100px;
+	margin-top: 20px;
+	
+}
+.ig img{
+	width: 80px;
+	margin-top: 20px;	
+	margin-left: 10px;
+}
+.email img{
+	width: 80px;
+	margin-top: 20px;	
+	margin-left: 10px;
+}
+
+
+
+
+/*clear float*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
